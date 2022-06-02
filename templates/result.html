@@ -1,0 +1,32 @@
+{% extends "Layout.html"%}
+{% block title %}HealthCare - Results{% endblock %}
+
+<style>
+      .navbar-light .navbar-brand {
+        color: blue;
+        font-weight: bold;
+       }
+</style>
+
+{% block body %}
+
+<!-- Main Body -->
+<!-- <div class="container">
+    <h1> {{ prediction_text }}</h1>
+</div> -->
+
+<div class="p-5 mb-4 alert alert-success rounded-3 my-2 mx-2" role="alert">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1> {{ prediction_text }}</h1>
+            </div>
+            <div class="col">
+                <center><img src="/static/doctor_Iamge1.jpg" class="img-fluid" width="200" alt="Kidney image"></center>
+            </div>
+        </div>
+        <a href="/about">To Know more about disease</a>
+    </div>
+</div>
+
+{% endblock %}

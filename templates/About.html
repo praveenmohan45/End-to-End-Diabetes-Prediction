@@ -1,0 +1,46 @@
+{% extends "Layout.html"%}
+{% block title %}HealthCare - About{% endblock %}
+
+<style>
+      .navbar-light .navbar-brand {
+        color: blue;
+        font-weight: bold;
+       }
+       h2 {
+        font-size: 1.0rem;
+        color: mediumblue;
+        }
+</style>
+
+{% block body %}
+<div class="container">
+    <h1>HealthCare is a machine learning based medical app.</h1>
+    <p>The prediction about the disease is made with the help of the machine learning model which itself is trained on
+        the thousands of the datasets<br>
+        So with the following paragraph I gonna be describing about the diseases which gonna be getting
+        perdicted in this web apllication.</p>
+
+            <h2> 1. Diabetes Disease:</h2>
+            <center><img src="/static/Diabetes_image.jpg" class="img-fluid" width="500" alt="Kidney image"></center>
+            <h5>Overview:</h5>
+            <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood
+                glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the
+                pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t
+                make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t
+                reach your cells.
+                Over time, having too much glucose in your blood can cause health problems. Although diabetes has no
+                cure, you can take steps to manage your diabetes and stay healthy.
+            </p>
+            <h5>Symptoms:</h5>
+            <ul>
+                <li>Heart disease</li>
+                <li>Stroke</li>
+                <li>Kidney Disease</li>
+                <li>Eye Problems</li>
+                <li>Dental Disease</li>
+                <li>Nerve Damage</li>
+                <li>Foot Problems</li>
+            </ul>
+
+</div>
+{% endblock %}
